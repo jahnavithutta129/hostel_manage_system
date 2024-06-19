@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .cont1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+
+        }
+        .container {
+            background: #fff;
+            padding: 20px 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont1"><div class="container">
+        <h2>Your leave application has been submitted successfully.Please check your email for furthur details.</h2>
+        </div></div>
+</body>
+</html>
+{% endblock %}
+
+   
